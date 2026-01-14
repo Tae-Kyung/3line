@@ -1,0 +1,16 @@
+{
+  "name": "samhaengsi-generator",
+  "version": "1.0.0",
+  "description": "삼행시 생성기 - Claude AI를 활용한 삼행시 자동 생성 웹 앱",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
